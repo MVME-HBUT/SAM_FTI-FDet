@@ -91,3 +91,14 @@ python demo/image_demo.py ${IMAGE_FILE}  configs/rsprompter/xxx.py --weights ${C
 ```
 
 ## Pretrain weight
+
+|Method|Pretrained weight| Download Links |
+|  ----  | ---- | ---- |
+|SAM-B|pytorch_model_base.bin|[download](https://drive.google.com/file/d/12vCWjnyDzmxLZRInlfNhqh8vpoaqR9Wx/view?usp=drive_link)|
+|Tiny-Vit|sam_hq_vit_tiny.pth|[download](https://drive.google.com/file/d/1eskeWmq3RkiXIDuJgVV0QqFH04gLw0Vt/view?usp=drive_link)|
+|SAM_FTI_FDet|SAM_FTI_FDet.pth|[download](https://drive.google.com/file/d/1rwxAKiGJKmmZ44RJr0LMqj3Qro8UzohR/view?usp=drive_link)|
+
+You can try testing the model using the SAM_FTI_FDet weights on the sample images in the `exemple_img` folder.
+## Contact
+
+If you have any other questions❓, please contact us in time 👬
