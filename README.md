@@ -78,3 +78,16 @@ sh train.sh
 ```shell
 sh multi_train.sh
 ```
+## Model Testing
+```shell
+sh test.sh
+```
+
+## Image Prediction
+#### Single Image Prediction:
+
+```shell
+python demo/image_demo.py ${IMAGE_FILE}  configs/rsprompter/xxx.py --weights ${CHECKPOINT_FILE} --out-dir ${OUTPUT_DIR}
+```
+
+## Pretrain weight
